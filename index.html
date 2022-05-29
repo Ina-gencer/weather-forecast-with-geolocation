@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <div class="about">
+        <h1>Хотите узнать прогноз погоды?</h1>
+        <p class="text">введите название города в графу "Поиск"⇓</p>
+    </div>
+    <div id="header">
+        <span class="search">Поиск
+            <input id="input" type="text" spellcheck="false" placeholder="Введите название ...">
+        </span>
+    </div>
+  
+<!-- информация , которая будет видна пользователю после  -->
+
+    <div id="info">
+        <p id="city"></p>
+        <p id="temperature"></p>
+        <p id="feelsLike"></p>
+        <p id="conditions"></p>
+    </div>
+    <div id="now">
+        <p id="date"></p>
+        <div id="wind">
+            <p id="speed"> </p>
+            <p id="humidity"></p>
+            <p id="pressure"> </p>
+        </div>
+        <div id="variation"> 
+            <p id="min"></p>
+            <p id="max"> </p>
+        </div>
+    </div>
+    <br>
+</div>
+<br>
+<hr>
+<!-- footer -->
+<div class="footer">
+    <a class="name" href="mailto:ina_allecto@mail.ru">Ina Gencer </a>
+</div>
+<br>
+<div class="footer">
+    <a href="https://www.instagram.com/inagencer/">
+        <img  src="https://cdn.glitch.me/374a5861-dcde-46fa-8b73-375bd42c5e75/instagram1.png?v=1639435991850" alt="" width="20px" height="20px">
+    </a>
+</div>
+<br>
+    <script src="script.js"></script>
+</body>
+</html>
